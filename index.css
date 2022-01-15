@@ -1,8 +1,64 @@
-#image1{
-    background-image: url(images/oscco-01.jpeg);
-    height: 700px;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
+.navre{
+    background-color: black;   
+}
+.section2{
+    background-color: red;
+}
+.tittle1{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 500px;
     
+
+}
+#mage{
+    margin-left: 100px;
+}
+#container{
+    
+    background-color: whitesmoke;
+    text-align: center;
+}
+#line{
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    margin-left: 800px;
+}
+#one,#two,#three{
+    background-color: white;
+    height: 400px;
+
+}
+#text{
+    height: 100px;
+    width: 1200px;
+    margin-left: 200px;
+}
+#name{
+    width: 1200px;
+    margin-left: 200px;
+}
+.class{
+    background-color: white;
+}
+#contact{
+    text-align: center;
+}
+.btn{
+    margin-left: 200px;
+}
+#container2{
+    background-color:gray;
+}
+#foot{
+    text-align: center;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+}
+#skill{
+    font-weight: bold;
+    font-size: x-large;
 }

@@ -10,25 +10,123 @@
   <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
-<body>
-    <nav class="navbar navbagitr-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Portfolio</a>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+ 
+
+      <div class="section2">
+        <div class="navre">
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"></nav>
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Portfolio</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#image1">Home</a></li>
+                <li><a href="#container">About</a></li>
+                <li><a href="#container2">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+          
+        <div class="container" id="image1">
+          <img src="images/oscco-01.jpeg" alt="" id="mage">
+        </div>
+        <div class="tittle1">
+          <p>NAME: ABDIRAHIM MOHAMED OSMAN</p>
+          <P>DIRECTOR: OSCCO TECH SOLUTIONS LIMITED</P>
+          <p>PHONE NO: 0722458193</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="container">
+        <p class="h1">ABOUT ME</p>
+        <div id="line"></div>
+        <div class="card">
+          <div>
+            <p>bbbbbbbbbbb</p>
+            <p>ffffffffffffff</p>
+            <p>vvvvvvvvvvv</p>
+            <p>vvvvvvvvvv</p>
+            <p>vvvvvvvvvvvv</p>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+          <div class="row">
+            <div class="col-sm-4" id="three" >
+                <p id="skill">Work experience</p>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                </ul>
+               
+            </div>
+            <div class="col-sm-4" id="one">
+              <div class="card quality">
+                <p id="skill">Hobbies</p>
+                <ul>
+                  <li>Marketing</li>
+                  <li>Travelling</li>
+                  <li>Sport</li>
+                  <li>Managing</li>
+                  <li>Blogging</li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="col-sm-4" id="two">
+              <div class="card quality">
+                <p id="skill">Skills</p>
+                <ul>
+                  <li>Accounting</li>
+                  <li>Connunication</li>
+                  <li>Business management</li>
+                  <li>Programming</li>
+                  <li>Database management</li>
+                </ul>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <ul>
+            <li><a href="https://www.Facebook.com/osccotech">Facebook</a></li>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Linkedin</a></li>
           </ul>
         </div>
-      </nav>
+       
+      </div>
 
-      <div class="section 2">
-        <div class="container-fluid" id="image1">
 
-        </div>
-        
+      <div class="container-fluid" id="container2">
+        <p class="h1" id="contact">CONTACT ME</p>
+        <form>
+          <div class="row">
+            <div class="col">
+              <label for="name" class="lable"></label>
+              <input type="text" class="form-control" placeholder="Enter name" id="name" name="email">
+            </div>
+            <br>
+            <div class="col">
+              <label for="message" class="label"></label>
+              <input type="text" class="form-control" placeholder="Enter message" id="text" name="msg">
+            </div>
+            <br>
+            <div>
+              <button class="btn">submit</button>
+            </div>
+          </div>
+        </form>
+        <br>
+      </div>
+
+      <div class="footer">
+        <p id="foot">ABDIRAHIM MOHAMED OSMAN</p>
       </div>
     
 </body>
