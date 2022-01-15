@@ -1,0 +1,8 @@
+#image1{
+    background-image: url(images/oscco-01.jpeg);
+    height: 700px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
